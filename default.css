@@ -66,7 +66,8 @@ h5 {
 }
 
 .btn {
-  background: blue !important;
+  background: #6EED95;
+  border-radius: 0;
 }
 
 .btn-blue-border{
