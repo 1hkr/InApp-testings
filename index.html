@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>In-App Messaging</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+
+<body onload="phiture.addPlatformClassName();" class="ab-in-app-message ab-html-message modal">
+
+  <!-- First screen start -->
+  <div id="first-screen" class="modal d-flex flex-column justify-content-center align-items-center">
+    <div class="modal-content d-flex flex-column justify-content-between align-items-stretch" style="width: 327px; ">
+      <div id="header" class="background-front">
+        <img id="image" src="header.png" width="101%" />
+        <a href="appboy://close" class="close-btn">
+          <img src="close.png" width="40" height="40" class="close-img" />
+        </a>
+      </div>
+      <div class="background-front">
+        <div class="d-flex justify-content-center" style="margin-bottom:8px;">
+          <h2 id="headline">NEW: Coping with<br> Cravings pack</h2>
+        </div>
+        <div class="d-flex  justify-content-center" style="margin-bottom:24px;">
+          <h4>
+            Time for a change? Get some extra support in creating healthy habits with our new 30-day pack.
+          </h4>
+        </div>
+        <div id="buttons" class="d-flex flex-column justify-content-center align-items-center">
+          <button id="btn1" type="button" class="btn btn_styles btn1 btn-block btn-lg btn-blue-fill" data-toggle="link" aria-pressed="false" onclick="location.href='rr1215301573://navigation/home/training/run/latest';">
+            START THE PACK</button>
+          <button id="btn2" class="text-center btn btn_styles btn2 btn-block btn-lg btn-blue-border" data-toggle="link" aria-pressed="false" onclick="location.href='appboy://close?abButtonId=1';">
+            SEND ME MORE INFO</button>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+  <!-- First screen end -->
+
+
+
+
+  <script src="phiture.js"></script>
+  <script src="jquery-3.2.1.slim.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
