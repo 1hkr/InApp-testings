@@ -1,15 +1,15 @@
 /* gujarati */
 @font-face {
   font-family: 'Apercu';
-  font-style: normal; 
-  src: local('Apercu'), url(./Apercu.otf) format('opentype'); 
+  font-style: normal;
+  src: local('Apercu'), url(./Apercu.otf) format('opentype');
 }
 
 /* gujarati */
 @font-face {
   font-family: 'Apercu-Bold';
-  font-style: bold; 
-  src: local('Apercu-Bold'), url(./Apercu-Bold.otf) format('opentype'); 
+  font-style: bold;
+  src: local('Apercu-Bold'), url(./Apercu-Bold.otf) format('opentype');
 }
 
 * {
@@ -25,7 +25,7 @@ h2{
   font-family: 'Apercu';
   font-weight: bold;
   font-size: 20px;
-  color: #5A6175; 
+  color: #5A6175;
   text-align: center;
   line-height: 1.2em;
   letter-spacing: 0px;
@@ -36,7 +36,7 @@ h3{
   font-family: 'Apercu';
   font-weight: bold;
   font-size: 20px;
-  color: #665352; 
+  color: #665352;
   text-align: center;
   line-height: 1.2em;
   letter-spacing: 0px;
@@ -44,7 +44,7 @@ h3{
 }
 
 h4 {
-  color: #5A6175;   
+  color: #5A6175;
   font-family: 'Apercu';
   font-weight: normal;
   text-align: center;
@@ -55,7 +55,7 @@ h4 {
 }
 
 h5 {
-  color: #665352;   
+  color: #665352;
   font-family: 'Apercu';
   font-weight: normal;
   text-align: center;
@@ -65,7 +65,9 @@ h5 {
   width: 84%;
 }
 
-
+.btn {
+  background: blue !important;
+}
 
 .btn-blue-border{
   color: #8ED1CD;
@@ -75,7 +77,7 @@ h5 {
   height: 50px;
   letter-spacing: 3px;
   margin: 8px;
-  font-family: 'Apercu'; 
+  font-family: 'Apercu';
   border-radius: 50px;
   border: 2px solid #8ED1CD;
   background-color: #FFFFFF;
@@ -90,7 +92,7 @@ h5 {
   height: 50px;
   letter-spacing: 3px;
   margin: 8px;
-  font-family: 'Apercu'; 
+  font-family: 'Apercu';
   background-color: #8ED1CD;
 }
 
@@ -106,22 +108,22 @@ h5 {
 }
 
 a {
-  color: white; 
+  color: white;
 }
 
 a:hover{
   color: #c4c4c4;
   text-decoration: none;
 }
- 
+
 img{
   border-radius: 0.3rem 0.3rem 0 0;
 }
 
  /* The Modal (background) */
  .modal {
-  display: block; 
-  position: fixed; 
+  display: block;
+  position: fixed;
  /* z-index: 1000; /* Sit on top */
   /* padding-top: 100px; Location of the box */
   left: 0;
@@ -133,7 +135,7 @@ img{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   border-radius: 0.3rem;
 }
- 
+
 .close:hover,
 .close:focus {
   color: #000;
@@ -149,7 +151,7 @@ img{
 }
 
 .close-btn{
-  z-index:1000; 
+  z-index:1000;
   position: absolute;
   top:16px;
   right:16px;
@@ -161,7 +163,7 @@ img{
 }
 
 .color-third{
-  color: #4B5161;  
+  color: #4B5161;
 }
 
 .color-or{
