@@ -1,3 +1,3 @@
 function Close() {
-  window.open('http://leanplum:close');
+  window.open('appboy://close');
 }
