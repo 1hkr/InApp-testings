@@ -1,3 +1,3 @@
 function Close() {
-  window.open('rr1215301573://navigation/home');
+  setTimeOut(function(){window.open('rr1215301573://navigation/home');}, 5000)
 }
